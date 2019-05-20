@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>寺库-注册</title>
+        <link rel="icon" href="../images/shoptitle.png" sizes="32x32">
+        <link rel="stylesheet" type="text/css" href="../css/base_px.css" />
+        <link rel="stylesheet" type="text/css" href="../css/reg-login.css" />
+
+    </head>
+    <body>
+        <div class="head clearfix">
+            <div class="con">
+                <div class="logo fl">
+                    <img src="../images/logo.jpg" height="80" width="168" alt="" />
+                </div>
+                <div class="fr">
+                    <a href="../index.html" target="_blank">寺库首页</a>
+                    <a href="javascript:;" id="addweb">收藏寺库</a>
+                    <a href="../index.html" target="_blank">寺库APP</a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="main con">
+            <ul class="regbox">
+                <li class="clearfix">
+                    <div class="regTips clearfix">
+                        <span class="left_inf">用户名</span>
+                        <div class="regName_tips fr f14 nametips">请输入手机号或者邮箱</div>
+                    </div>
+                    <div class="login_tips fl">
+                        <input id="regtext" class="fl inputs" type="text">
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <div class="regTips clearfix">
+                        <span class="left_inf">密码</span>
+                        <div class="regName_tips fr f14">请输入密码！</div>
+                    </div>
+                    <div class="login_tips fl">
+                        <input id="regpsw" class="fl inputs" type="password">
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <div class="regTips clearfix">
+                        <span class="left_inf">确认密码</span>
+                        <div class="regName_tips fr f14">请再次确认密码</div>
+                    </div>
+                    <div class="login_tips fl">
+                        <input id="regcpsw" class="fl inputs" type="password">
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <div class="regTips clearfix" style="display:none">
+                        <span class="left_inf">
+                            <input id="reginv" class="fl" type="text">
+                            <span>短信验证码</span>
+                        </span>
+                        <input type="button" value="免费获取" id="getdc"/>
+                    </div>
+                    <div id="dctips"><img src="../images/yesorno.jpg"/></div>
+                    <div class="login_tips fl dctest" style="display: none;">
+                        <input class="fl reg_int reg_in" id="inviteCode" type="text" tabindex="6">
+                    </div>
+                </li>
+
+                <div class="regSbm">
+                    <input type="button" value="立即注册" id="regBtn" />
+                </div>
+                <p class="read_agree" style="clear:both;">
+                    <label class="serviceCheck">
+                    <input type="checkbox" checked="checked" id="readProtocol">我已阅读并同意</label>
+                    <a id="regProtA" href="javascript:void(0)">《寺库网用户注册协议》</a>
+                </p>
+                <div class="msg clearfix">
+                    <span class="fl">已经是寺库会员？<a href="login.html" target="_blank" class="active">立即登录</a></span>
+                </div>
+            </ul>
+        </div>
+
+        <iframe src="reg-agree.html" frameborder="0" id="ifr"></iframe>
+
+        <div class="footer">
+            <div class="foot con">
+                <p>
+                    <span><a href="javascript:;" target="_blank">京公安备11010102001392</a></span>
+                    <span>京ICP证110119号 京ICP备09084709号-3</span>
+                    <span><a href="javascript:;" target="_blank">ISO9001中国质量管理体系认证</a></span>
+                    <span><a href="javascript:;" target="_blank">出版物经营许可证</a></span>
+                    <span><a href="javascript:;" target="_blank">食品经营许可证</a></span>
+                    <span>京B2-20181305</span>
+                </p>
+                <p>
+                    <span>京食药网食备201810026</span>
+                    <span>客服电话：400-875-6789</span>
+                    <span>COPYRIGHT © 2010-2018 北京寺库商贸有限公司 版权所有</span>
+                </p>
+                <p class="footer-info-imgs">
+                    <a href="javascript:;" target="_blank" rel="nofollow">
+                        <img src="../images/f1.jpg">
+                    </a>
+                    <a href="javascript:;" target="_blank" rel="nofollow">
+                        <img src="../images/kexin.png">
+                    </a>
+                    <a href="javascript:;" target="_blank" rel="nofollow">
+                        <img src="../images/f3.jpg">
+                    </a>
+                    <a href="javascript:;" target="_blank" rel="nofollow">
+                        <img src="../images/chengxin.jpg">
+                    </a>
+                </p>
+            </div>
+        </div>
+        <script src="../js/require.js" data-main="../js/home"></script>
+    </body>
+</html>

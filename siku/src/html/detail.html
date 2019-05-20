@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>详情页</title>
+        <link rel="icon" href="../images/shoptitle.png" sizes="32x32">
+        <link rel="stylesheet" type="text/css" href="../css/base_px.css" />
+        <link rel="stylesheet" type="text/css" href="../iconfont/iconfont.css" />
+        <link rel="stylesheet" type="text/css" href="../css/detail.css" />
+    </head>
+    <body>
+        <div id="all">
+            <!-- 头部导航 -->
+            <div class="head con">
+                <a id="showname"></a>
+                <div class="top fl">
+                    <div class="topLeft fl">
+                        <h4 class="fl">中文</h4><i class="iconfont icon-xiasanjiaoxing fl" style="font-size:12px;"></i>
+                    </div>
+                    <p class="pri fr">RMB￥</p>
+                </div>
+                <h1>
+                    <a href="../index.html"><img src="../images/logo.jpg" /></a>
+                </h1>
+                <div class="topRight fr">
+                    <span class="clearfix">
+                        <a href="login.html" id="lbtn">登录</a>
+                        <a href="reg.html" id="sbtn">注册</a>
+                        <a href="javascript:;"  style="border-right:0 none;"><i class="iconfont icon-wujiaoxingkong"></i></a>
+                    </span>
+                </div>
+            </div>
+            <!-- 导航栏 -->
+            <div class="nav">
+                <ul class="con clearfix">
+                    <li><a href="../index.html">首页</a></li>
+                    <li class="nav2">
+                        <a href="#">包袋</a>
+                        <div class="nav-list con" style="display:none;">
+                            <ul class="nav-detail">
+                                <li class="fl">
+                                    <h4 class="ctype">分类</h4>
+                                    <a href="#">男士包袋</a>
+                                    <a href="#">钱包</a>
+                                    <a href="#">斜挎包</a>
+                                    <a href="#">双肩包</a>
+                                    <a href="#">女士包袋</a>
+                                    <a href="#">手拿包</a>
+                                    <a href="#">拉杆箱</a>
+                                    <a href="#">手提包</a>
+                                </li>
+                                <li class="fl">
+                                    <h4 class="ctype">品牌</h4>
+                                    <a href="#">爱马仕</a>
+                                    <a href="#">香奈儿</a>
+                                    <a href="#">迪奥</a>
+                                    <a href="#">路易威登</a>
+                                    <a href="#">古驰</a>
+                                    <a href="#">圣罗兰</a>
+                                    <a href="#">宝格丽</a>
+                                    <a href="#">蔻驰</a>
+                                    <a href="#">葆蝶家</a>
+                                    <a href="#">范思哲</a>
+                                    <a href="#">杜嘉班纳</a>
+                                    <a href="#">克洛伊</a>
+                                    <a href="#">缪缪</a>
+                                    <a href="#">亚历山大麦昆</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav2">
+                        <a href="#">腕表</a>
+                        <div class="nav-list con" style="display:none;">
+                            <ul class="nav-detail">
+                                <li class="fl">
+                                    <h4 class="ctype">分类</h4>
+                                    <a href="#">男士</a>
+                                    <a href="#">女士</a>
+                                    <a href="#">机械腕表</a>
+                                    <a href="#">石英腕表</a>
+                                </li>
+                                <li class="fl">
+                                    <h4 class="ctype">品牌</h4>
+                                    <a href="#">百达翡丽</a>
+                                    <a href="#">江诗丹顿</a>
+                                    <a href="#">宝柏</a>
+                                    <a href="#">宝玑</a>
+                                    <a href="#">朗格</a>
+                                    <a href="#">积家</a>
+                                    <a href="#">芝柏</a>
+                                    <a href="#">萧邦</a>
+                                    <a href="#">万国</a>
+                                    <a href="#">沛纳海</a>
+                                    <a href="#">格拉苏蒂</a>
+                                    <a href="#">劳力士</a>
+                                    <a href="#">真力时</a>
+                                    <a href="#">卡地亚</a>
+                                    <a href="#">欧米茄</a>
+                                    <a href="#">浪琴</a>
+                                    <a href="#">天梭</a>
+                                    <a href="#">汉密尔顿</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav2">
+                        <a href="#">珠宝首饰</a>
+                        <div class="nav-list con" style="display:none;">
+                            <ul class="nav-detail">
+                                <li class="fl">
+                                    <h4 class="ctype">分类</h4>
+                                    <a href="#">项链</a>
+                                    <a href="#">吊坠</a>
+                                    <a href="#">手链</a>
+                                    <a href="#">耳饰</a>
+                                    <a href="#">手镯</a>
+                                    <a href="#">戒指/指环</a>
+                                    <a href="#">手串</a>
+                                    <a href="#">串珠配珠</a>
+                                    <a href="#">首饰套装</a>
+                                    <a href="#">胸针</a>
+                                    <a href="#">头饰</a>
+                                </li>
+                                <li class="fl">
+                                    <h4 class="ctype">品牌</h4>
+                                    <a href="#">梵克雅宝</a>
+                                    <a href="#">尚美</a>
+                                    <a href="#">蒂芙尼</a>
+                                    <a href="#">迪奥</a>
+                                    <a href="#">宝格丽</a>
+                                    <a href="#">斯华洛世奇</a>
+                                    <a href="#">路易威登</a>
+                                    <a href="#">Apm Monaco</a>
+                                    <a href="#">莫妮卡维纳德</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav2">
+                        <a href="#">服饰</a>
+                        <div class="nav-list con" style="display:none;">
+                            <ul class="nav-detail">
+                                <li class="fl">
+                                    <h4 class="ctype">分类</h4>
+                                    <a href="#">男士包袋</a>
+                                    <a href="#">钱包</a>
+                                    <a href="#">斜挎包</a>
+                                    <a href="#">双肩包</a>
+                                    <a href="#">女士包袋</a>
+                                    <a href="#">手拿包</a>
+                                    <a href="#">拉杆箱</a>
+                                    <a href="#">手提包</a>
+                                </li>
+                                <li class="fl">
+                                    <h4 class="ctype">品牌</h4>
+                                    <a href="#">爱马仕</a>
+                                    <a href="#">香奈儿</a>
+                                    <a href="#">迪奥</a>
+                                    <a href="#">路易威登</a>
+                                    <a href="#">古驰</a>
+                                    <a href="#">圣罗兰</a>
+                                    <a href="#">宝格丽</a>
+                                    <a href="#">蔻驰</a>
+                                    <a href="#">葆蝶家</a>
+                                    <a href="#">范思哲</a>
+                                    <a href="#">杜嘉班纳</a>
+                                    <a href="#">克洛伊</a>
+                                    <a href="#">缪缪</a>
+                                    <a href="#">亚历山大麦昆</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav2">
+                        <a href="#">鞋履</a>
+                        <div class="nav-list con" style="display:none;">
+                            <ul class="nav-detail">
+                                <li class="fl">
+                                    <h4 class="ctype">分类</h4>
+                                    <a href="#">项链</a>
+                                    <a href="#">吊坠</a>
+                                    <a href="#">手链</a>
+                                    <a href="#">耳饰</a>
+                                    <a href="#">手镯</a>
+                                    <a href="#">戒指/指环</a>
+                                    <a href="#">手串</a>
+                                    <a href="#">串珠配珠</a>
+                                    <a href="#">首饰套装</a>
+                                    <a href="#">胸针</a>
+                                    <a href="#">头饰</a>
+                                </li>
+                                <li class="fl">
+                                    <h4 class="ctype">品牌</h4>
+                                    <a href="#">梵克雅宝</a>
+                                    <a href="#">尚美</a>
+                                    <a href="#">蒂芙尼</a>
+                                    <a href="#">迪奥</a>
+                                    <a href="#">宝格丽</a>
+                                    <a href="#">斯华洛世奇</a>
+                                    <a href="#">路易威登</a>
+                                    <a href="#">Apm Monaco</a>
+                                    <a href="#">莫妮卡维纳德</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav2">
+                        <a href="#">配饰</a>
+                        <div class="nav-list con" style="display:none;">
+                            <ul class="nav-detail">
+                                <li class="fl">
+                                    <h4 class="ctype">分类</h4>
+                                    <a href="#">男士包袋</a>
+                                    <a href="#">钱包</a>
+                                    <a href="#">斜挎包</a>
+                                    <a href="#">双肩包</a>
+                                    <a href="#">女士包袋</a>
+                                    <a href="#">手拿包</a>
+                                    <a href="#">拉杆箱</a>
+                                    <a href="#">手提包</a>
+                                </li>
+                                <li class="fl">
+                                    <h4 class="ctype">品牌</h4>
+                                    <a href="#">爱马仕</a>
+                                    <a href="#">香奈儿</a>
+                                    <a href="#">迪奥</a>
+                                    <a href="#">路易威登</a>
+                                    <a href="#">古驰</a>
+                                    <a href="#">圣罗兰</a>
+                                    <a href="#">宝格丽</a>
+                                    <a href="#">蔻驰</a>
+                                    <a href="#">葆蝶家</a>
+                                    <a href="#">范思哲</a>
+                                    <a href="#">杜嘉班纳</a>
+                                    <a href="#">克洛伊</a>
+                                    <a href="#">缪缪</a>
+                                    <a href="#">亚历山大麦昆</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav2">
+                        <a href="#">运动</a>
+                        <div class="nav-list con" style="display:none;">
+                            <ul class="nav-detail">
+                                <li class="fl">
+                                    <h4 class="ctype">分类</h4>
+                                    <a href="#">项链</a>
+                                    <a href="#">吊坠</a>
+                                    <a href="#">手链</a>
+                                    <a href="#">耳饰</a>
+                                    <a href="#">手镯</a>
+                                    <a href="#">戒指/指环</a>
+                                    <a href="#">手串</a>
+                                    <a href="#">串珠配珠</a>
+                                    <a href="#">首饰套装</a>
+                                    <a href="#">胸针</a>
+                                    <a href="#">头饰</a>
+                                </li>
+                                <li class="fl">
+                                    <h4 class="ctype">品牌</h4>
+                                    <a href="#">梵克雅宝</a>
+                                    <a href="#">尚美</a>
+                                    <a href="#">蒂芙尼</a>
+                                    <a href="#">迪奥</a>
+                                    <a href="#">宝格丽</a>
+                                    <a href="#">斯华洛世奇</a>
+                                    <a href="#">路易威登</a>
+                                    <a href="#">Apm Monaco</a>
+                                    <a href="#">莫妮卡维纳德</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav2">
+                        <a href="#">家居</a>
+                        <div class="nav-list con" style="display:none;">
+                            <ul class="nav-detail">
+                                <li class="fl">
+                                    <h4 class="ctype">分类</h4>
+                                    <a href="#">男士包袋</a>
+                                    <a href="#">钱包</a>
+                                    <a href="#">斜挎包</a>
+                                    <a href="#">双肩包</a>
+                                    <a href="#">女士包袋</a>
+                                    <a href="#">手拿包</a>
+                                    <a href="#">拉杆箱</a>
+                                    <a href="#">手提包</a>
+                                </li>
+                                <li class="fl">
+                                    <h4 class="ctype">品牌</h4>
+                                    <a href="#">爱马仕</a>
+                                    <a href="#">香奈儿</a>
+                                    <a href="#">迪奥</a>
+                                    <a href="#">路易威登</a>
+                                    <a href="#">古驰</a>
+                                    <a href="#">圣罗兰</a>
+                                    <a href="#">宝格丽</a>
+                                    <a href="#">蔻驰</a>
+                                    <a href="#">葆蝶家</a>
+                                    <a href="#">范思哲</a>
+                                    <a href="#">杜嘉班纳</a>
+                                    <a href="#">克洛伊</a>
+                                    <a href="#">缪缪</a>
+                                    <a href="#">亚历山大麦昆</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav2">
+                        <a href="#">美妆</a>
+                        <div class="nav-list con" style="display:none;">
+                            <ul class="nav-detail">
+                                <li class="fl">
+                                    <h4 class="ctype">分类</h4>
+                                    <a href="#">项链</a>
+                                    <a href="#">吊坠</a>
+                                    <a href="#">手链</a>
+                                    <a href="#">耳饰</a>
+                                    <a href="#">手镯</a>
+                                    <a href="#">戒指/指环</a>
+                                    <a href="#">手串</a>
+                                    <a href="#">串珠配珠</a>
+                                    <a href="#">首饰套装</a>
+                                    <a href="#">胸针</a>
+                                    <a href="#">头饰</a>
+                                </li>
+                                <li class="fl">
+                                    <h4 class="ctype">品牌</h4>
+                                    <a href="#">梵克雅宝</a>
+                                    <a href="#">尚美</a>
+                                    <a href="#">蒂芙尼</a>
+                                    <a href="#">迪奥</a>
+                                    <a href="#">宝格丽</a>
+                                    <a href="#">斯华洛世奇</a>
+                                    <a href="#">路易威登</a>
+                                    <a href="#">Apm Monaco</a>
+                                    <a href="#">莫妮卡维纳德</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav2">
+                        <a href="#">生活方式</a>
+                        <div class="nav-list con" style="display:none;">
+                            <ul class="nav-detail">
+                                <li class="fl">
+                                    <h4 class="ctype">分类</h4>
+                                    <a href="#">男士包袋</a>
+                                    <a href="#">钱包</a>
+                                    <a href="#">斜挎包</a>
+                                    <a href="#">双肩包</a>
+                                    <a href="#">女士包袋</a>
+                                    <a href="#">手拿包</a>
+                                    <a href="#">拉杆箱</a>
+                                    <a href="#">手提包</a>
+                                </li>
+                                <li class="fl">
+                                    <h4 class="ctype">品牌</h4>
+                                    <a href="#">爱马仕</a>
+                                    <a href="#">香奈儿</a>
+                                    <a href="#">迪奥</a>
+                                    <a href="#">路易威登</a>
+                                    <a href="#">古驰</a>
+                                    <a href="#">圣罗兰</a>
+                                    <a href="#">宝格丽</a>
+                                    <a href="#">蔻驰</a>
+                                    <a href="#">葆蝶家</a>
+                                    <a href="#">范思哲</a>
+                                    <a href="#">杜嘉班纳</a>
+                                    <a href="#">克洛伊</a>
+                                    <a href="#">缪缪</a>
+                                    <a href="#">亚历山大麦昆</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li style="margin-left:165px;"><a href="#">搜索<i class="iconfont icon-sousuo"></i></a></li>
+                </ul>
+            </div>
+
+            <!-- 商品详情 -->
+            <div class="shopbox">
+                <div class="shopdetail con">
+                    <div class="smallNav">
+                        <p class="fl">
+                            <a href="#" target="_blank">首页</a>&gt;
+                            <a href="#" title="包袋" target="_blank">包袋</a>&gt;
+                            <a href="#" title="斜挎包" target="_blank">斜挎包</a>&gt;
+                            <!--显示商品品牌-->
+                            <a href="#" title="芬迪" target="_blank">芬迪</a>&gt;
+                            <a href="#" title="FENDI/芬迪  DOUBLE MICRO BAGUETTE女士迷你牛皮手提包 单肩包 斜挎包 8M0371">FENDI/芬迪  DOUBLE MICRO BAGUETTE女士迷你牛皮手提包 单肩包 斜挎包 8M0371</a>
+                        </p>
+                        <span class="fr">商品编码：35413704</span>
+                    </div>
+                </div>
+                <div class="contents clearfix con">
+                    <div class="con_left clearfix">
+                        <div class="smallimg">
+                            <div class="move_box">
+                                <a href="#">
+                                    <img src="../images/dt1.jpg" alt="" />
+                                    <i style="display:block;"></i>
+                                </a>
+                                <a href="#">
+                                    <img src="../images/dt2.jpg" alt="" />
+                                    <i></i>
+                                </a>
+                                <a href="#">
+                                    <img src="../images/dt3.jpg" alt="" />
+                                    <i></i>
+                                </a>
+                                <a href="#">
+                                    <img src="../images/dt4.jpg" alt="" />
+                                    <i></i>
+                                </a>
+                                <a href="#">
+                                    <img src="../images/dt5.jpg" alt="" />
+                                    <i></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="bigimg">
+                            <!-- <img src="../images/sup1.jpg" />
+                            <div class="zoomspan"></div> -->
+                        </div>
+                        <div class="fdjbox">
+                            <img src="../images/fdj1.jpg"/>
+                        </div>
+                        <img src="../images/leftbt-detail.png" alt="" style="margin:20px 0 0 14px;width:470px;" />
+                    </div>
+                    <div class="con_right">
+                        <div class="proName">
+                            <!-- <h2>FENDI/芬迪  DOUBLE MICRO BAGUETTE女士迷你牛皮手提包 单肩包 斜挎包 8M0371</h2> -->
+                        </div>
+                        <div class="proDetails" id="proDetails">
+                            <div class="proList clearfix xrdetail">
+                                <!-- <div id="secooNameJs" class="pdt fl" style="line-height: 42px; *line-height: 48px; height:33px;"><span class="colorRed f18">一&nbsp;口&nbsp;价</span></div>
+                                <div class="pdd fl" style="min-height: 32px;*height:auto">
+                                    <strong class="Dprice"><b><span class="rmb">¥</span>
+                                    </b>
+                                    </strong><strong class="Dprice" id="secooPriceJs">9,503</strong>
+                                        <span class="sale" style="display: none;">
+                                        </span>
+                                    
+                                       <span class="mprice" style="display: none;"><span class="rmb">¥</span><span class="rmb" style="font-family: tahoma;"></span></span>    
+                                </div> -->
+                            </div>
+                            <!-- 预热活动价 -->
+                            <div class="proList clearfix " id="tempActivityDiv" style="display: none">
+                                <div class="pdt fl" id="tempActivityText"></div>
+                                <div class="pdd fl">
+                                    <span class="smallDprice padRight_20" id="tempActivityPrice"></span><span et="<!--这里需要一个结束时间戳-->" class="timelin timecol" id="tempActivityTimer"></span>
+                                </div>
+                            </div>
+                                    
+                            <div class="proList clearfix" id="promotionInfoSpan" style="display: none">
+                                <div class="pdt fl" id="promotionInfoText">促销信息</div>
+                                <div class="pdd fl" id="promotionInfoSpanContent">
+                                    <div class="parent_tips_prom " id="exclusiveDiv" style="display: none"></div>
+                                    <div class="parent_tips_prom" id="promotionRealDiv" style="display: none"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="proList clearfix" id="inventoryDiv">
+                                <div class="pdt fl">发货地</div>
+                                <div class="pdd fl">
+                                    <div class="tips_hover">
+                                        <span class="fl"> <em id="location-t">大陆</em> <i id="youhuo">有货</i> </span>
+                                    </div>
+                                    <span class="delivery"><i>预计下单后会在<span class="color9d0">2-4</span>天内发货&nbsp;</i></span>
+                                                
+                                    <div class="tips_delivery"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="proList clearfix" style="display: block;">
+                                <div class="pdt fl">温馨提示</div>
+                                <div class="pdd fl" id="specialSign">
+                                
+                                
+                                <span>本商品为特例品,不支持优惠券和不参与会员折扣</span><br></div>
+                            </div>
+                                
+                            <div class="proList clearfix">
+                                <div class="pdt fl">商品信息</div>
+                                <div class="pdd fl"><span>自营</span><br></div>
+                            </div>
+                            <div class="elseSP" style="display: none;">
+                                <h5>相关商品</h5>
+                                <div class="elseCon">
+                                    <div class="es-con">
+                                        <ul class="esConUl clearfix" id="OtherProduct_show" style="width: 0px; margin-left: 0px;">
+
+                                        </ul>
+                                    </div>
+                                <div class="es-nav"><span class="es-nav-prev" style="display: none;">Previous</span><span class="es-nav-next" style="display: none;">Next</span></div></div>
+                            </div>
+                        </div>
+                        <div class="proList_box clearfix">
+                            <div class="proList clearfix psize">
+                                <div class="pdt fl" id="flagColor1">颜色</div>
+                                <div class="pdd fl">
+                                    <ul>
+                                        <li name="productSpecInfo" class="on"><a href="javascript:void(0);"><span><img src="../images/smm1.jpg" title="咖色" width="30" height="30"></span></a><label></label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="proList clearfix pNum">
+                            <div class="pdt fl">购买数量</div>
+                            <div class="pdd fl">
+                                <div class="countNm">
+                                    <a href="javascript:;" class="down fl" id="subProduct" ></a>
+                                    <span class="num fl">
+                                        <input type="text" id="buyNumVal" value="1">
+                                    </span>
+                                    <a href="javascript:;" class="up fl nMinus" id="addProduct"></a>
+                                </div>
+                                <span class="delivery" id="lastProductNum">仅剩 <span class="color9d0 goodnums">1</span> 件，抓紧时间购买哦！</span>
+                            </div>
+                        </div>
+                        <div class="prompt clearfix pselected">
+                        </div>
+                        <div class="prompt clearfix">
+                            <img src="../images/wcby.png" alt="" class="fl" style="width:170px;height:180px;margin-right:10px;" />
+                            <a href="javascript:;" class="topanic fl" id="addBindCar" title="立即抢购"></a>
+                            <a href="javascript:;" class="tocart fl" id="addCarInfo" title="加入购物车"></a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="con clearfix" style="padding-top:30px;width:1200px;">
+                    <img src="../images/dtb_left.png" />
+                    <img src="../images/dtb_right.png"style="width:940px;" class="fr" />
+                </div>
+                
+            </div>
+            
+            <!-- fixed盒子 -->
+            <div class="fixed-qrcode ncontainer" style="display: block;">
+                <img class="zh" src="../images/detail_ewm.jpg">
+            </div>
+
+            <!-- 底部 -->
+            <div class="foot">
+                <div class="foot-list con">
+                    <ul>
+                        <li class="serve">
+                            <h4>服务指南</h4>
+                            <ul>
+                                <li><a href="#">Investors</a></li>
+                                <li><a href="#">物流配送</a></li>
+                                <li><a href="#">售后服务</a></li>
+                                <li><a href="#">联系我们</a></li>
+                                <li><a href="#">加入我们</a></li>
+                                <li><a href="#">帮助</a></li>
+                                <li><a href="#">寺库招商</a></li>
+                            </ul>
+                        </li>
+                        <li class="commt">
+                            <h4>公共媒体</h4>
+                            <div class="foot-logo">
+                                <div class="weibo clearfix">
+                                    <i class="iconfont icon-weibo"></i>
+                                    <span class="wb">微博</span>
+                                    <div class="ewm-hide">
+                                        <img src="../images/sikuewm.png" alt="" />
+                                    </div>
+                                </div>
+                                <div class="wechat clearfix">
+                                    <i class="iconfont icon-weixin"></i>
+                                    <span class="wb">微信</span>
+                                    <div class="ewm-hide">
+                                        <img src="../images/sikuewm.png" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="ourapp">
+                            <h4>我们的APP</h4>
+                            <ul class="clearfix">
+                                <li>
+                                    <a href="javascript:void(0);">寺库商城</a>
+                                    <div class="app-ewm">
+                                        <img src="../images/sikushop.png" alt="" />
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">Try Try</a>
+                                    <div class="app-ewm">
+                                        <img src="../images/try.png" alt="" />
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">寺库艺术</a>
+                                    <div class="app-ewm">
+                                        <img src="../images/sikuartist.png" alt="" />
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="footer-info">
+                        <p>
+                            <span><a href="javascript:;" target="_blank">京公安备11010102001392</a></span>
+                            <span>京ICP证110119号 京ICP备09084709号-3</span>
+                            <span><a href="javascript:;" target="_blank">ISO9001中国质量管理体系认证</a></span>
+                            <span><a href="javascript:;" target="_blank">出版物经营许可证</a></span>
+                            <span><a href="javascript:;" target="_blank">食品经营许可证</a></span>
+                            <span>京B2-20181305</span>
+                        </p>
+                        <p>
+                            <span>京食药网食备201810026</span>
+                            <span>客服电话：400-875-6789</span>
+                            <span>COPYRIGHT © 2010-2018 北京寺库商贸有限公司 版权所有</span>
+                        </p>
+                        <p class="footer-info-imgs">
+                            <a href="javascript:;" target="_blank" rel="nofollow">
+                                <img src="../images/f1.jpg">
+                            </a>
+                            <a href="javascript:;" target="_blank" rel="nofollow">
+                                <img src="../images/kexin.png">
+                            </a>
+                            <a href="javascript:;" target="_blank" rel="nofollow">
+                                <img src="../images/f3.jpg">
+                            </a>
+                            <a href="javascript:;" target="_blank" rel="nofollow">
+                                <img src="../images/chengxin.jpg">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 右边fixed盒子 -->
+            <a class="fsa fasService" target="_blank" href="javascript:void(0);">
+                <b class="fs fs12"></b>
+                <em class="fs-name fs-name-ad">在线<br>客服</em>
+            </a>
+
+            <div class="fsFixedTopContent" style="display: none;">
+                <div class="fsFixedTop" style="-webkit-transform: scale(1); transform: scale(1); opacity: 1;">
+                    <a class="fsa fasApp" href="javascript:;">
+                        <b class="fs fs10"></b>
+                        <span>
+                            <img src="../images/pic28.jpg" width="75" height="75"><br>扫描下载APP
+                        </span>
+                    </a>
+                    <a class="fsa fsbacktotop" href="javascript:;">
+                        <b class="fs fs11"></b>
+                        <em class="fs-name fs-name-ad">返回<br>顶部</em>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- 蒙板（加入购物车后的提示） -->
+            <div class="maskall">
+            </div>
+            <!-- 购物车提示框 -->
+            <div class="shops_tips">
+                <div class="shops_tips_title">加入购物车成功<a href="javascript:;" class="winboxClose"></a></div>
+                <div class="shops_tips_text">添加成功</div>
+                <div class="shops_tips_btn">
+                    <a href="javascript:;" target="_blank" class="toCart">去购物车结算</a>
+                    <a href="javascript:;" class="buy">继续购物</a>
+                </div>
+            </div>
+        </div>
+        <script src="../js/require.js" data-main="../js/home"></script>
+    </body>
+</html>

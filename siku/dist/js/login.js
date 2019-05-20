@@ -1,0 +1,1 @@
+"use strict";$(function(){$("#loginBtn").click(function(){$.post("../api/login.php",{name:$("#logintext").val(),psw:$("#loginpsw").val()},function(n){"yes"==n?($("#setCookie").prop("checked")&&setCookie("name",$("#logintext").val(),1),location.href="../index.html"):alert("用户名或密码错误")})})});

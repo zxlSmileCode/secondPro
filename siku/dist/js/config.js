@@ -1,0 +1,1 @@
+"use strict";require.config({paths:{jquery:"jquery-1.12.4.min",common:"common"},shim:{reg:["jquery","common"],index:["jquery","common"],list:["jquery","common"],login:["jquery","common"],shopcar:["jquery","common"],detail:["jquery","common"]}});
